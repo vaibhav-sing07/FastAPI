@@ -36,7 +36,7 @@ def get_student(student_id:int = Path( description="The ID of the student",gt=0,
     return students[student_id]
 
 
-#gt,lt,ge,le
+#gt=greater than,lt=less than,ge=greater than and equal to,le=less than and equal to
 
 #Query Parameters
 #google.com/results?search=Python
